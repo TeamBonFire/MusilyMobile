@@ -1,4 +1,4 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice } from "@reduxjs/toolkit";
 
 interface HomeState {
   group_cnt: number;
@@ -9,10 +9,10 @@ const initialState: HomeState = {
 };
 
 const slice = createSlice({
-  name: 'home',
+  name: "home",
   initialState,
   reducers: {
-    addGroup: (state) => {
+    addGroup: (state): void => {
       state.group_cnt + 1;
     },
   },

@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
+import React from "react";
 
-import Home from '../containers/Home';
+import Home from "../containers/Home";
 
-export default class HomeScreen extends Component {
-  render() {
-    return <Home />;
-  }
-}
+const HomeScreen = (): JSX.Element => <Home />;
+
+export default HomeScreen;

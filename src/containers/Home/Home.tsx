@@ -1,5 +1,5 @@
-import React from 'react';
+import React from "react";
 
-import Home from '../../components/Home/Home';
+import Home from "../../components/Home/Home";
 
-export default () => <Home />;
+export default (): JSX.Element => <Home />;
